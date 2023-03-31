@@ -60,7 +60,6 @@ const select = (el, all = false) => {
   })
 
   const navbarLinks = document.querySelectorAll('.navbar-links a');
-
   navbarLinks.forEach(link => {
     link.addEventListener('click', () => {
       navbarLinks.forEach(link => link.classList.remove('active'));
