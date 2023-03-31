@@ -31,6 +31,12 @@
     color:black;
     font-size: 18px;
   }
+
+  .navbar-links a:active, .navbar-links a:hover{
+    color: black; /* Change the text color */
+    font-weight: bold; /* Make the text bold */
+    border-bottom: 2px solid black; /* Change the background color */
+  } 
   
   .navbar-buttons {
     display: flex;
@@ -331,6 +337,9 @@
 .right-boxed {
   right: 4.2857rem;
 }
+
+
+
 
 
       

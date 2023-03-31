@@ -59,5 +59,13 @@ const select = (el, all = false) => {
     body.classList.add('box-collapse-closed')
   })
 
+  const navbarLinks = document.querySelectorAll('.navbar-links a');
+
+  navbarLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navbarLinks.forEach(link => link.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
 
 };
