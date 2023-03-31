@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open House</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+    <!--Property Filters Section-->
+    <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Filter Property</h3>
+    </div>
+    <span class="close-box-collapse right-boxed bi bi-x"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bedrooms">Number of Bedrooms</label>
+              <select class="form-control form-select form-control-a" id="bedrooms">
+                <option>Any</option>
+                <option>1</option>
+                <option>1+</option>
+                <option>2</option>
+                <option>2+</option>
+                <option>3</option>
+                <option>3+</option>
+                <option>4</option>
+                <option>4+</option>
+                <option>5</option>
+                <option>5+</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="year">Year Built</label>
+              <input type="month" id="year"
+              min="1900-01" value="1900-01" class="form-control form-select form-control-a"/>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bathrooms">Bathrooms</label>
+              <select class="form-control form-select form-control-a" id="bathrooms">
+                <option>Any</option>
+                <option>1</option>
+                <option>1+</option>
+                <option>2</option>
+                <option>2+</option>
+                <option>3</option>
+                <option>3+</option>
+                <option>4</option>
+                <option>4+</option>
+                <option>5</option>
+                <option>5+</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="size">Land Size</label>
+              <select class="form-control form-select form-control-a" id="size">
+                <option>Any</option>
+                <option>0-1/4 acre</option>
+                <option>1/4-1/2 acre</option>
+                <option>1/2-1 acre</option>
+                <option>1+ acres</option>
+                <option>2+ acres</option>
+                <option>5+ acres</option>
+                <option>10+ acres</option>
+                <option>50+ acres</option>
+                <option>100+ acres</option>
+                <option>200+ acres</option>
+                <option>300+ acres</option>
+                <option>400+ acres</option>
+                <option>500+ acres</option>
+                <option>1000+ acres</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="price">Min Price</label>
+              <select class="form-control form-select form-control-a" id="price">
+                <option>0</option>
+                <option>$100,000</option>
+                <option>$200,000</option>
+                <option>$300,000</option>
+                <option>$400,000</option>
+                <option>$500,000</option>
+                <option>$600,000</option>
+                <option>$700,000</option>
+                <option>$800,000</option>
+                <option>$900,000</option>
+                <option>$1,000,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="submit-button">Filter Property</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div><!-- End Property Filters Section -->
+
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <i class="bi bi-house"></i>
+        <h3>Open house</h3>
+      </div>
+      <div class="navbar-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="navbar-buttons">
+        <button>Login</button>
+      </div>
+    </nav>
+
+    <div class="image-container">
+      <img src="assets/house.jpg" alt="Image">
+      <div class="text-overlay">
+        <h1>Welcome to Open House</h1>
+        <p>Find your dream home!</p>
+        <form>
+          <input type="text" placeholder="Search for homes" class="search-bar">
+          <button type="submit" class="search-button">Search</button>
+        </form>
+      </div>
+    </div>
+    <!--Navbar ends-->
+
+    <!--Filters and sort-->
+    <div class="filters-container">
+      <button class="navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">Filters</button>
+    </div>
+
+    <div class="sort-button">
+      <div class="sort-dropdown">
+        <button>Sort by:</button>
+        <div class="sort-dropdown-content">
+          <a href="#">Price (Low - High)</a>
+          <a href="#">Price (High - Low)</a>
+          <a href="#">Date (recent first)</a>
+          <a href="#">Date (oldest first)</a>
+          <a href="#">Recommended</a>
+        </div>
+      </div>
+    </div>
+    <!--Filters and sort end-->
+
+
+
+  </body>
+</html>
