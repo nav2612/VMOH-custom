@@ -1,6 +1,6 @@
 const Users = require("../models/userModel")
 const jwt = require("jsonwebtoken");
-const secretKey = "your_secret_key_here";
+const secretKey = "eoubouYBiycenauocbaonpicne";
 
 
 // SIGN UP API creating new users
